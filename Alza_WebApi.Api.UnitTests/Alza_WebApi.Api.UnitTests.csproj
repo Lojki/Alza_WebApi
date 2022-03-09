@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.7" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.9.4" />
+    <PackageReference Include="NSubstitute" Version="4.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Alza_WebApi.Api\Alza_WebApi.Api.csproj" />
+    <ProjectReference Include="..\Alza_WebApi.UnitTests.Shared\Alza_WebApi.UnitTests.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
